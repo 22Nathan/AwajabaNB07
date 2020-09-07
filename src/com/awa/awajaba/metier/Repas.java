@@ -38,5 +38,21 @@ public class Repas {
     public void setNumero(int numero) {
         this.numero = numero;
     }
+
+    /**
+     * @return the date
+     */
+    public LocalDate getDate() {
+        return date;
+    }
+
+    /**
+     * @param date the date to set
+     */
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
     
+
+}
 
